@@ -8,7 +8,7 @@ $ curl https://raw.githubusercontent.com/rogerkohler/personal-setup/master/insta
 ```
 
 ### Runtime Demo
-![](http://i.imgur.com/DdeKEa1.gifv)
+![](http://i.imgur.com/DdeKEa1.gif)
 
 ## Development
 Simply clone the repository ...
