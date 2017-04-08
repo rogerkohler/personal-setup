@@ -84,6 +84,23 @@ echo -e "\e[1;34m   -> Installing slack ...\e[0m"
 brew cask install slack
 echo -e "\e[1;34m   -> Installing xquartz ...\e[0m"
 brew cask install xquartz
+open /usr/local/Caskroom/xquartz/2.7.11/XQuartz.pkg
+echo -e "\e[1;34m   -> Installing ffmpeg ...\e[0m"
+brew install ffmpeg
+echo -e "\e[1;34m   -> Installing imagemagic ...\e[0m"
+brew install imagemagic
+echo -e "\e[1;34m   -> Installing gifsicle ...\e[0m"
+brew install gifsicle
+echo -e "\e[1;34m   -> Installing pkg-config ...\e[0m"
+brew install pkg-config
+echo -e "\e[1;34m   -> Installing screengif ...\e[0m"
+brew install screengif
+echo -e "\e[1;34m   -> Installing gs ...\e[0m"
+brew install ghostscript
+cd /usr/local/share/ghostscript/
+wget "https://superb-sea2.dl.sourceforge.net/project/gs-fonts/gs-fonts/8.11%20%28base%2035%2C%20GPL%29/ghostscript-fonts-std-8.11.tar.gz"
+tar xzvf ghostscript-fonts-std-8.11.tar.gz
+
 echo -e "\e[1;34m   -> Installing virtualbox ...\e[0m"
 brew cask install virtualbox
 
